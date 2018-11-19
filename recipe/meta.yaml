@@ -14,9 +14,9 @@ source:
   sha256: eaccd68db5c73d6a089ce5b323cdd51bc6a6a58ce467987158ba8c9be6a0a94e
 
 build:
+  noarch: generic
   merge_build_host: True  # [win]
-  number: 1
-  skip: true  # [win32]
+  number: 1001
   rpaths:
     - lib/R/lib/
     - lib/
@@ -41,8 +41,7 @@ about:
     System of Units) and non-SI units, plus unit conversions Based on the data from
     NIST (National Institute of Standards and Technology, USA)
   license_family: GPL3
-  license_file: '{{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-3'  # [unix]
-  license_file: '{{ environ["PREFIX"] }}\R\share\licenses\GPL-3'  # [win]
+  license_file: '{{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-3'
 
 extra:
   recipe-maintainers:
