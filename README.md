@@ -3,7 +3,7 @@ About r-nistunits
 
 Home: https://CRAN.R-project.org/package=NISTunits
 
-Package license: GPL (>= 3)
+Package license: GPL-3.0-or-later
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-nistunits-feedstock/blob/main/LICENSE.txt)
 
