@@ -1,11 +1,11 @@
-About r-nistunits
-=================
+About r-nistunits-feedstock
+===========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-nistunits-feedstock/blob/main/LICENSE.txt)
 
 Home: https://CRAN.R-project.org/package=NISTunits
 
 Package license: GPL-3.0-or-later
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-nistunits-feedstock/blob/main/LICENSE.txt)
 
 Summary: Fundamental physical constants (Quantity, Value, Uncertainty, Unit) for  SI (International System of Units) and non-SI units, plus unit conversions Based on the data from NIST (National Institute of Standards and Technology, USA)
 
